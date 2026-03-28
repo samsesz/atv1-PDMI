@@ -1,15 +1,15 @@
 // MeuCarousel.tsx
+import { MaterialIcons } from "@expo/vector-icons";
 import React, { useRef, useState } from "react";
 import {
-  Dimensions,
-  FlatList,
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
+    Dimensions,
+    FlatList,
+    Image,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
 } from "react-native";
-import { MaterialIcons } from "@expo/vector-icons";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 

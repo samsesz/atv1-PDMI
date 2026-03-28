@@ -14,14 +14,14 @@ export default function Index() {
     }, []); 
 
     return (
-
-            <View style={styles.logoContainer}>
-                <Ionicons name="heart" size={80} color="#0c3619" />
-                <Text style={styles.logoText}>Att 1</Text>
-                <Text style={styles.tagline}>Carregando...</Text>
-            </View>
-        
-    );
+  <View style={styles.container}>
+    <View style={styles.logoContainer}>
+      <Ionicons name="heart" size={80} color="#0c3619" />
+      <Text style={styles.logoText}>Att 1</Text>
+      <Text style={styles.tagline}>Carregando...</Text>
+    </View>
+  </View>
+);
 }
 
 const styles = StyleSheet.create({
